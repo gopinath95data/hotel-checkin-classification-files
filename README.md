@@ -8,3 +8,5 @@
   d":648},{"id":649},{"id":650},{"id":651},{"id":652},{"id":653}],"errors":[{"code":3,"message":"[PHP
   Warning #2] count(): Parameter must be an array or an object that implements Countable
   (153)"}]}
+
+ #### li =  [i for i in re.findall(":(\d*)",test) if i != '']
