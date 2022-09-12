@@ -28,7 +28,7 @@ Also since there were some outliers suring the sensor readings it didnt perform 
  
  2. Explain back propagation and tell us how you handle a dataset if 4 out of 30 parameters have null values more than 40 percentage
 
-Backpropogation is the process where the values of the weights and biases are updated in a deep learning neural network model. After forward propagation the loss is calculated and based on the loss the contribution of each weight and bias is calculated using chain rule and the parameters are continuosly updated unitl a staisfiable loss is obtained
+Backpropogation is the process where the values of the weights and biases are updated in a deep learning neural network model. After forward propagation the loss is calculated and based on the loss the contribution of each weight and bias is calculated using chain rule and the parameters are continuosly updated unitl a satisfiable loss is obtained
 
 If a feature has mode than 40% as null values I will mostly drop it since it might contribute to additional noise if we try to impute it.
 If the feature is said to be an import one by the domain expert, despite having 40% missing values i will try to impute it with mean, median, mode or other methods, the method i choose depends on whichever method doesnt disturb the distribution of the feature
